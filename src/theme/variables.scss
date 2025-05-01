@@ -1,0 +1,17 @@
+:root {
+	--ion-color-vermelhinho: #f55032;
+	--ion-color-vermelhinho-rgb: 245,80,50;
+	--ion-color-vermelhinho-contrast: #000000;
+	--ion-color-vermelhinho-contrast-rgb: 0,0,0;
+	--ion-color-vermelhinho-shade: #d8462c;
+	--ion-color-vermelhinho-tint: #f66247;
+}
+
+.ion-color-vermelhinho {
+	--ion-color-base: var(--ion-color-vermelhinho);
+	--ion-color-base-rgb: var(--ion-color-vermelhinho-rgb);
+	--ion-color-contrast: var(--ion-color-vermelhinho-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-vermelhinho-contrast-rgb);
+	--ion-color-shade: var(--ion-color-vermelhinho-shade);
+	--ion-color-tint: var(--ion-color-vermelhinho-tint);
+}

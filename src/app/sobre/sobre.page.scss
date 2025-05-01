@@ -1,0 +1,36 @@
+.tradicoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-size: 20px;
+    color: var(--ion-color-vermelhinho);
+    margin-top: 10px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    align-self: center;
+  }
+
+  p {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  a {
+    color: var(--ion-color-vermelhinho);
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+      filter: brightness(1.2);
+    }
+  }
+}

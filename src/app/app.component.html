@@ -1,0 +1,26 @@
+<ion-app>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar color="vermelhinho">
+        <ion-title class="menu-title" slot="start">Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item routerLink="/home" routerLinkActive="active" lines="none">Início</ion-item>
+          <ion-item routerLink="/sobre" routerLinkActive="active" lines="none">Tradições</ion-item>
+          <ion-item routerLink="/celebridades" routerLinkActive="active" lines="none">Celebridades</ion-item>
+          <ion-item routerLink="/gastronomia" routerLinkActive="active" lines="none">Gastronomia</ion-item>
+          <ion-item routerLink="/desporto" routerLinkActive="active" lines="none">Desporto</ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+
+  <div class="ion-page" id="main-content">
+    <ion-router-outlet></ion-router-outlet>
+  </div>
+</ion-app>

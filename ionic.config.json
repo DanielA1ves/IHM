@@ -1,0 +1,7 @@
+{
+  "name": "minha_terra",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
